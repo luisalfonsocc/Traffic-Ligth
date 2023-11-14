@@ -11,3 +11,52 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.streetLightBg {
+  background-color: #000;
+  width: 100px;
+  height: 300px;
+  padding: 20px;
+  margin: 0px;
+  border-radius: 15px;
+}
+
+.bulb {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin: 10px;
+}
+
+.redBulb {
+  background-color: #ff0202;
+}
+
+.yellowBulb {
+  background-color: #ffff06;
+}
+
+.greenBulb {
+  background-color: #01fe01;
+}
+
+.bulbOn {
+  box-shadow: 2px -2px 24px 10px rgba(220,224,154,0.65);
+
+  
+}
+
+.semaforo-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 0;
+}
+
+.soporte-superior {
+  width: 20px;
+  height: 100px;
+  background-color: #333; /* Color del soporte */
+  margin: 0; /* Agregamos margen inferior para separar el soporte del semáforo */
+  padding-bottom: 0;
+}
